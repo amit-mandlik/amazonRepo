@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To verify login functionality",
+        "description": "",
+        "id": "amazon-online-shopping-feature;to-verify-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36432272177,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome browser",
+            "match": {
+              "location": "StepDefClass.open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9288518234,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter url \"https://www.amazon.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.in/",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefClass.enter_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6192038452,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Sign in option",
+            "match": {
+              "location": "StepDefClass.click_on_Sign_in_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1562848221,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter registered email and password",
+            "match": {
+              "location": "StepDefClass.enter_registered_email_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37059,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be on homepage of Application",
+            "match": {
+              "location": "StepDefClass.user_should_be_on_homepage_of_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon online shopping feature",
+    "description": "description: this feature test login functionality",
+    "id": "amazon-online-shopping-feature",
+    "keyword": "Feature",
+    "uri": "./Features/Amazon.feature"
+  }
+]
